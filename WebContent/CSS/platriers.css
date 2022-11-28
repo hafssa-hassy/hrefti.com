@@ -1,0 +1,313 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/10.jpg);*/
+    height: 9vh;
+    
+
+}
+.logo img{
+    float:left;
+    width:150px;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.profile-img{
+	position:absolute;
+	float:right;
+	width:40px;
+	height: 40px;
+	top:4px;
+	right:8px;
+	margin-left: 5px;
+	border: 1px solid #000;
+	border-radius: 50%;
+}
+.username {
+	position:relative;
+	color: #000;
+	text-align:center;
+	margin-top:25px;
+	
+}
+.signout{
+	position:relative;
+	text-decoration: none;
+	color:#fff ;
+	padding: 2px 17px;
+	border: 1px solid #000;
+	border-radius:5px;
+	background-color: #11BB68;
+	transition: 0.6s ease;
+	margin-top:0px;
+	right:50px;
+	
+	/*margin-right: 80px;*/
+	margin-left: 35px;
+	/*margin-top: 0px;*/
+}
+.connexion .signout{
+	
+	float: right;
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+.navbar .connexion{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-end;
+  
+
+}
+.connexion li {
+	  margin-left: 9px;
+	 /* border: solid 1px;/*see me */
+}	   
+
+
+.navbar{
+    float: right;
+    list-style-type: none;
+    margin-top: 18px;
+}
+ul li{
+    display:inline-block;
+
+}
+.signup{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    border-radius:5px;
+    background-color: #11BB68;
+    transition: 0.6s ease;
+    margin-right: 12px;
+}
+.signin{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    border-radius:5px;
+    background-color:#135DB0 ;
+    transition: 0.6s ease;
+    margin-right: 12px;
+}
+.navbar .signup:hover {
+    background-color: #19D077;
+    color: #fff;
+}
+
+.navbar .signin:hover {
+    background-color: #1B8DDC;
+    color: #fff;
+}
+/* styling search bar */ 
+    .search input[type=text]{ 
+        width:300px; 
+        height:25px; 
+        border-radius:5px; 
+        border: 1px solid #000; 
+    } 
+          
+    .search{ 
+        float:right; 
+        margin-top:12px; 
+        margin-right: 300px;
+    } 
+          
+    .search button{ 
+        background-color: #0074D9; 
+        color: #f2f2f2; 
+        float: right; 
+        border-radius:5px;
+        padding: 3px 3px; 
+        margin-right: 16px; 
+        margin-left: 8px;
+        font-size: 12px; 
+        border: none; 
+        cursor: pointer; 
+    } 
+.title {
+    position: relative;
+    top:30%;
+    background-image: url(../images/platrerie.png);
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    height:50vh;
+    margin-bottom: 20px;
+}
+
+.title  p{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-weight: bold;
+    margin-left:240px;
+
+}
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #D58957;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 8px;
+    margin-bottom: 10px;
+    
+}
+.personne{
+    margin-right: 10px;
+    margin-left:5px;
+}
+
+.nom-prenom{
+    background-color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    margin-left:5px;
+}
+.description{
+    background-color: #fff;
+    height: 23.2vh;
+    width: 154.2vh;
+    padding: 8px;
+}
+
+.description h3{
+	margin-bottom:10px;
+}
+.description ul li {
+	margin-right:40px;
+}
+.description img{
+	margin-bottom:6px;
+}
+.container ul li{
+    display: inline-block;
+}
+ul li{
+    display: initial;
+}
+img{
+    border-radius: 5%;
+}
+
+
+
+
+.about{
+    border: 2px solid #000;
+    height: 180px;
+    width: 400px;
+    margin-left: 220px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius:5px;
+
+}
+.contact{
+    border: 2px solid #000;
+    height: 180px;
+    width: 400px;
+    margin-top: 2%;
+    margin-left: 80px;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius:5px;
+
+}
+
+.about,.contact h2{
+    text-align: center;
+}
+.about p{
+    text-align: left;
+    font-size: 1 em;
+}
+.contact ul li{
+    display: initial;
+
+}
+.email a,div{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+.social-menu{
+    margin-left: 20px;
+}
+
+.social-menu ul {
+    margin-start: 20px;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: center;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) ;
+}
+.social-menu ul li:nth-child(1) a {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a {
+    background-color: #0077B5;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer h4{
+    
+    text-align: center;
+    padding: 5px;
+    
+}
+footer{
+ 
+    background-color:  #D58957;
+}

@@ -1,0 +1,7 @@
+Menuisier2
+Nom:Zahrane
+Prenom:Badr
+CIN:L345678
+Adresse:Targa Marrakech
+N° tel:+212645326709
+Experience: spécialiste de l'aménagement intérieur : logements, magasins et bureaux, avec une bonne maîtriser des notions essentielles de géométrie.

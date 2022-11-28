@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>HerftiProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <session-config> 
+		<session-timeout>60</session-timeout>
+	</session-config>
+	
+  <servlet>
+  	<servlet-name>Accueil</servlet-name>
+  	<servlet-class>com.servlets.Accueil</servlet-class>
+  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Accueil</servlet-name>
+  	<url-pattern>/accueil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SignIn</servlet-name>
+  	<servlet-class>com.servlets.SignIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignIn</servlet-name>
+  	<url-pattern>/connexion</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<servlet-class>com.servlets.SignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignUp</servlet-name>
+  	<url-pattern>/inscription</url-pattern>
+  </servlet-mapping>
+  
+  
+      <servlet>
+  	<servlet-name>métier</servlet-name>
+  	<servlet-class>com.servlets.Metier</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>métier</servlet-name>
+  	<url-pattern>/Métier</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>clientform</servlet-name>
+  	<servlet-class>com.servlets.ClientForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>clientform</servlet-name>
+  	<url-pattern>/formulaireClient</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>artisanform</servlet-name>
+  	<servlet-class>com.servlets.ArtisanForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>artisanform</servlet-name>
+  	<url-pattern>/formulaireArtisan</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>signout</servlet-name>
+  	<servlet-class>com.servlets.SignOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>signout</servlet-name>
+  	<url-pattern>/déconnexion</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>pageArtisan</servlet-name>
+  	<servlet-class>com.servlets.PageArtisan</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>pageArtisan</servlet-name>
+  	<url-pattern>/pageArtisan</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>profilArtisan</servlet-name>
+  	<servlet-class>com.servlets.ProfilArtisan</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>profilArtisan</servlet-name>
+  	<url-pattern>/profilArtisan</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+  	<servlet-name>boiteArtisan</servlet-name>
+  	<servlet-class>com.servlets.BoiteArtisan</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>boiteArtisan</servlet-name>
+  	<url-pattern>/boiteArtisan</url-pattern>
+  </servlet-mapping>
+  
+  
+          <servlet>
+  	<servlet-name>creationTransaction</servlet-name>
+  	<servlet-class>com.servlets.CreationTransaction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>creationTransaction</servlet-name>
+  	<url-pattern>/creationTransaction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Recherche</servlet-name>
+  	<servlet-class>com.servlets.Recherche</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Recherche</servlet-name>
+  	<url-pattern>/recherche</url-pattern>
+  </servlet-mapping>
+</web-app>
